@@ -1,0 +1,48 @@
+.process-section {
+  background: black;
+  color: white;
+  padding: 4em;
+
+  .header {
+    font-size: 2em;
+  }
+
+  .pricing-section {
+    padding: 1em 0;
+
+    .pricing {
+      line-height: 2;
+      font-size: 1.2em;
+    }
+
+    h3 {
+      line-height: 3;
+    }
+  }
+
+  .process-section {
+    padding: 0.5em 0;
+
+    .process-header {
+      padding: 2em 0 1em;
+      font-size: 1.2em;
+    }
+
+    .process-steps {
+      display: flex;
+      flex-direction: column;
+      gap: 3em;
+
+      @media(min-width: 1280px) {
+        flex-direction: row;
+      }
+
+      .process-step {
+
+        .fa {
+          padding: 1em 0;
+        }
+      }
+    }
+  }
+}
