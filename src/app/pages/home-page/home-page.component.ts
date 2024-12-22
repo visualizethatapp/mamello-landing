@@ -3,6 +3,7 @@ import { BannerComponent } from '../../components/banner/banner.component';
 import { ToolbarComponent } from '../../components/toolbar/toolbar.component';
 import { BenefitsComponent } from '../../components/benefits/benefits.component';
 import { ProcessSectionComponent } from '../../components/process-section/process-section.component';
+import { FaqSectionComponent } from '../../components/faq-section/faq-section.component';
 
 @Component({
   selector: 'app-home-page',
@@ -11,7 +12,8 @@ import { ProcessSectionComponent } from '../../components/process-section/proces
     BannerComponent,
     ToolbarComponent,
     BenefitsComponent,
-    ProcessSectionComponent
+    ProcessSectionComponent,
+    FaqSectionComponent
   ],
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.scss'
