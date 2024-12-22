@@ -1,0 +1,29 @@
+.benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+  padding: 4em;
+
+  @media(min-width: 1280px) {
+    flex-direction: row;
+  }
+
+  .benefit {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      padding: 1em 0;
+    }
+
+    .heading {
+      font-weight: bold;
+      font-size: 20px;
+      padding: 0.5em 0 1em;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+  }
+}
