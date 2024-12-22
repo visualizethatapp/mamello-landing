@@ -1,0 +1,70 @@
+.banner {
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+
+    @media(min-width: 1280px) {
+        flex-direction: row;
+    }
+
+    &__copy {
+        padding: 3em;
+
+        @media(min-width: 1280px) {
+            width: 50vw;
+            padding: 5em 2em;
+        }
+        
+       .heading {
+        font-family: "Merienda", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 25px;
+        padding: 0.5em 0em;
+        line-height: 1.5;
+
+        @media(min-width: 1280px) {
+            font-size: 35px;
+        }
+       } 
+       p{
+        font-size: 20px;
+        line-height: 1.5;
+        padding: 0 0 0.5em;
+       }
+
+       button {
+        padding: 0.7em;
+    background: white;
+    border: none;
+    border-radius: 0.2em;
+    font-weight: 500;
+    margin: 2em 0;
+       }
+
+       .features {
+        padding: 1em 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+
+        @media(min-width: 1280px) {
+            flex-direction: row;
+        }
+        .feature {
+            
+            .fa {
+                color: #00FF00;
+                padding-right: 0.2em;
+            }
+        }
+       }
+    }
+
+    .banner-img img{
+        width: 100%;
+    }
+}
