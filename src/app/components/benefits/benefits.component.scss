@@ -19,12 +19,20 @@
 
     .heading {
       font-weight: bold;
-      font-size: 20px;
+      font-size: 18px;
       padding: 0.5em 0 1em;
+      font-family: "Nunito Sans", serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
     }
 
     p {
       line-height: 1.5;
+      font-family: "Nunito Sans", serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
     }
   }
 }
