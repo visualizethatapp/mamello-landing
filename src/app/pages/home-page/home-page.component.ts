@@ -4,6 +4,7 @@ import { ToolbarComponent } from '../../components/toolbar/toolbar.component';
 import { BenefitsComponent } from '../../components/benefits/benefits.component';
 import { ProcessSectionComponent } from '../../components/process-section/process-section.component';
 import { FaqSectionComponent } from '../../components/faq-section/faq-section.component';
+import { FooterComponent } from '../../components/footer/footer.component';
 
 @Component({
   selector: 'app-home-page',
@@ -13,7 +14,8 @@ import { FaqSectionComponent } from '../../components/faq-section/faq-section.co
     ToolbarComponent,
     BenefitsComponent,
     ProcessSectionComponent,
-    FaqSectionComponent
+    FaqSectionComponent,
+    FooterComponent
   ],
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.scss'

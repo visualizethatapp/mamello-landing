@@ -5,6 +5,10 @@
   color: white;
   justify-content: space-between;
   padding: 2em;
+  font-family: "Nunito Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 
   @media(min-width: 1024px) {
     flex-direction: row;
